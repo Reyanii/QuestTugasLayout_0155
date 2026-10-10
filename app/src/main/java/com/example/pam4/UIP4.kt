@@ -39,4 +39,37 @@ data class CardItemData(
 )
 
 @Composable
-fun ActivitasPertama(modifier: Modifier = Modifier) }
+fun ActivitasPertama(modifier: Modifier = Modifier) {
+    //Kumpulan Data Card dari Resource
+    val cardList = listOf(
+        CardItemData(
+            bgResId = R.color.card_gray,
+            namaResId = R.string.nama_1,
+            infoResId = R.string.info_1,
+            subTextColorResId = R.color.sub_text_yellow,
+            isCursive = true
+        ),
+        CardItemData(
+            bgResId = R.color.card_purple,
+            namaResId = R.string.nama_2,
+            telpResId = R.string.telp_2,
+            infoResId = R.string.info_2,
+            subTextColorResId = R.color.sub_text_cyan
+        ),
+        CardItemData(
+            bgResId = R.color.card_blue,
+            namaResId = R.string.nama_3,
+            telpResId = R.string.telp_3,
+            infoResId = R.string.info_3,
+            subTextColorResId = R.color.sub_text_cyan
+        ),
+        CardItemData(
+            bgResId = R.color.card_green,
+            namaResId = R.string.nama_4,
+            telpResId = R.string.telp_4,
+            infoResId = R.string.info_4,
+            subTextColorResId = R.color.sub_text_cyan
+        )
+    )
+
+    }
