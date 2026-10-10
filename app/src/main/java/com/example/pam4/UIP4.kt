@@ -155,4 +155,24 @@ fun ItemCard(
                     color = Color.White
                 )
 
+                if (data.telpResId != null) {
+                    Text(
+                        text = stringResource(id = data.telpResId),
+                        fontSize = 14.sp,
+                        color = colorResource(id = data.subTextColorResId)
+                    )
                 }
+
+                Text(
+                    text = stringResource(id = data.infoResId),
+                    fontSize = 14.sp,
+                    color = colorResource(id = data.subTextColorResId)
+                )
+            }
+
+            Spacer(modifier = Modifier.width(16.dp))
+
+
+        }
+    }
+}
