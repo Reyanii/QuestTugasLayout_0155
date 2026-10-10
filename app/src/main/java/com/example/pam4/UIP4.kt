@@ -112,3 +112,10 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
     }
 }
 
+//Card Terpisah yang Menerima Data Model
+@Composable
+fun ItemCard(
+    data: CardItemData,
+    modifier: Modifier = Modifier
+) {
+    
