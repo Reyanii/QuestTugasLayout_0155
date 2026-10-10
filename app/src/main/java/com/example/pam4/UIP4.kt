@@ -38,4 +38,5 @@ data class CardItemData(
     val isCursive: Boolean = false
 )
 
-}
+@Composable
+fun ActivitasPertama(modifier: Modifier = Modifier) }
