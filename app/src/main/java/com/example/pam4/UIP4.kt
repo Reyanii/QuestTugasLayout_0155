@@ -28,4 +28,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+//Model Data untuk menampung referensi Resource ID
+data class CardItemData(
+    val bgResId: Int,
+    val namaResId: Int,
+    val telpResId: Int? = null,
+    val infoResId: Int,
+    val subTextColorResId: Int,
+    val isCursive: Boolean = false
+)
+
 }
