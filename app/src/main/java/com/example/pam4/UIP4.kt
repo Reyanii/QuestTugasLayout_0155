@@ -126,3 +126,21 @@ fun ItemCard(
             containerColor = colorResource(id = data.bgResId)
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            val gambar = painterResource(id = R.drawable.luniv)
+
+            // Logo Kiri
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
+
+            Spacer(modifier = Modifier.width(16.dp))
+
+            }
