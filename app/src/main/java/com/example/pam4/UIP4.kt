@@ -172,7 +172,12 @@ fun ItemCard(
 
             Spacer(modifier = Modifier.width(16.dp))
 
-
+            //Logo Kanan
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier.size(60.dp)
+            )
         }
     }
 }
