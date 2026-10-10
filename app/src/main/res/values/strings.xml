@@ -4,23 +4,6 @@
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
 
-        <!-- Card 1 -->
-    <string name="nama_1">Vera Indriyani</string>
-    <string name="info_1">Kasihan, Bantul</string>
 
-        <!-- Card 2 -->
-    <string name="nama_2">Sukaji</string>
-    <string name="telp_2">081234567890</string>
-    <string name="info_2">Godean, Sleman</string>
-
-        <!-- Card 3 -->
-    <string name="nama_3">Yutemi</string>
-    <string name="telp_3">085123456789</string>
-    <string name="info_3">Banguntapan, Bantul</string>
-
-        <!-- Card 4 -->
-    <string name="nama_4">Zenitsu</string>
-    <string name="telp_4">082345678901</string>
-    <string name="info_4">Umbulharjo, Yogyakarta</string>
 
 </resources>
