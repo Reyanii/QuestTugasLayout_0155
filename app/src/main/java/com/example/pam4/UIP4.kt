@@ -72,4 +72,10 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         )
     )
 
-    }
+    Column(
+        modifier = modifier
+            .padding(top = 40.dp, start = 16.dp, end = 16.dp)
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState()),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
