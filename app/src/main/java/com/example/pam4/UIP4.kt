@@ -118,4 +118,11 @@ fun ItemCard(
     data: CardItemData,
     modifier: Modifier = Modifier
 ) {
-    
+    Card(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(vertical = 8.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = data.bgResId)
+        )
+    ) {
