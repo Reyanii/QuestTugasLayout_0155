@@ -78,4 +78,18 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        // Judul & Subjudul dari Resource
+        Text(
+            text = stringResource(id = R.string.prodi),
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = stringResource(id = R.string.univ),
+            fontSize = 18.sp
+        )
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        }
