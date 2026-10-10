@@ -92,4 +92,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        //Data Card secara Dinamis
+        cardList.forEach { item ->
+            ItemCard(data = item)
         }
+
+        Spacer(modifier = Modifier.height(30.dp))
+
+       }
