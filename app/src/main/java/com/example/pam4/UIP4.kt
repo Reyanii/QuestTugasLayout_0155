@@ -143,4 +143,16 @@ fun ItemCard(
 
             Spacer(modifier = Modifier.width(16.dp))
 
-            }
+            //Kolom Informasi
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = stringResource(id = data.namaResId),
+                    fontSize = 22.sp,
+                    fontFamily = if (data.isCursive) FontFamily.Cursive else FontFamily.Default,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+
+                }
